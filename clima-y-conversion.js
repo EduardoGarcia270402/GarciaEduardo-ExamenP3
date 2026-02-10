@@ -1,6 +1,6 @@
 function toCelsius(f) {
   if (typeof f !== 'number' || !Number.isFinite(f)) {
-    throw new TypeError("f debe ser un número finito");
+    throw new TypeError('f debe ser un numero finito');
   }
   const c = (f - 32) * 5 / 9;
   return Number(c.toFixed(1));
@@ -8,7 +8,7 @@ function toCelsius(f) {
 
 function toFahrenheit(c) {
   if (typeof c !== 'number' || !Number.isFinite(c)) {
-    throw new TypeError("c debe ser un número finito");
+    throw new TypeError('c debe ser un numero finito');
   }
   const f = (c * 9 / 5) + 32;
   return Number(f.toFixed(1));
@@ -16,11 +16,11 @@ function toFahrenheit(c) {
 
 function movingAverage(series, window) {
   if (!Array.isArray(series) || !series.every(n => typeof n === 'number' && Number.isFinite(n))) {
-    throw new TypeError('series debe ser un arreglo de números');
+    throw new TypeError('series debe ser un arreglo de numeros');
   }
 
   if (!Number.isInteger(window) || window < 2 || window > series.length) {
-    throw new RangeError("window fuera de rango")
+    throw new RangeError('window fuera de rango');
   }
 
   const result = [];

@@ -6,8 +6,10 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "coverage": "jest --coverage"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EduardoGarcia270402/GarciaEduardo-ExamenP3.git"
