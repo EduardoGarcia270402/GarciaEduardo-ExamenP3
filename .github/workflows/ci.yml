@@ -33,4 +33,4 @@ jobs:
       - name: Simular despliegue
         run: |
           echo "Despliegue simulado la aplicacion paso 
-          Lint y Pruebas correctamente"
+          con firebase y pruebas con eslint y todo hecho"
