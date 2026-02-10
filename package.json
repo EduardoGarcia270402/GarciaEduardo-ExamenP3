@@ -1,0 +1,29 @@
+{
+  "name": "garciaeduardo-examenp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clima-y-conversion.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoGarcia270402/GarciaEduardo-ExamenP3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoGarcia270402/GarciaEduardo-ExamenP3/issues"
+  },
+  "homepage": "https://github.com/EduardoGarcia270402/GarciaEduardo-ExamenP3#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.0",
+    "jest": "^30.2.0"
+  }
+}
